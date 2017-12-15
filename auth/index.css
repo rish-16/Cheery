@@ -1,0 +1,135 @@
+html {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir Next;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #88CAC9;
+}
+
+input:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+img {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#creds {
+	width: 60%;
+	min-height: 500px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+	display: block;
+	margin: 75px auto;
+}
+
+#creds #container {
+	width: 100%;
+	padding-top: 10px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+#creds #container ul {
+	list-style: none;
+	display: block;
+}
+
+#creds #art {
+	width: 50%;
+	margin-top: 50px;
+	display: block;
+}
+
+#cred #container ul li #art img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#creds #form {
+	width: 50%;
+	height: 355px;
+	overflow: hidden;
+	float: right;
+	margin-top: -333px;
+}
+
+#creds #form #tagline {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#creds #form #subtitle {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+#creds #form #name {
+	width: 80%;
+	height: 32px;
+	border-radius: 5px;
+	font-family: Avenir Next;
+	font-size: 15px;
+	border: none;
+	background-color: lightgray;
+	opacity: 0.4;
+	text-indent: 12px;
+}
+
+#creds #form #email {
+	width: 80%;
+	height: 32px;
+	border-radius: 5px;
+	font-family: Avenir Next;
+	font-size: 15px;
+	border: none;
+	background-color: lightgray;
+	opacity: 0.4;
+	margin-top: 10px;
+	text-indent: 12px;
+}
+
+#creds #form #password {
+	width: 80%;
+	height: 32px;
+	border-radius: 5px;
+	font-family: Avenir Next;
+	font-size: 15px;
+	border: none;
+	background-color: lightgray;
+	opacity: 0.4;
+	margin-top: 10px;
+	text-indent: 12px;
+}
+
+#creds #form #submit {
+	width: 120px;
+	height: 40px;
+	background-color: #88CAC9;
+	border: none;
+	border: 2px;
+	font-family: Avenir Next;
+	font-weight: bolder;
+	font-size: 17px;
+	color: white;
+	margin-top: 10px;
+}
+
+#creds #form #submit:hover {
+	cursor: pointer;
+}
